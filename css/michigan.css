@@ -1,0 +1,235 @@
+.smallPoints {
+    font-size: 19px !important;
+}
+
+.nav-link {
+    font-size: clamp(1rem, -1rem + 2.2vw, 1.2rem);
+}
+
+h1 {
+    font-size: clamp(2rem, 2rem + 2vw, 4rem);
+}
+
+.introTxt {
+    font-size: clamp(1rem, 1rem + 0.5vw, 1.5rem);
+}
+
+.siteLogo {
+    width: calc(100px + 4vw) !important;
+    height: calc(100px + 4vw) !important;
+    min-width: 400px !important;
+}
+.siteLogoG {
+    width: 10vw !important;
+
+}
+
+.siteLogoGroup {
+    width: 54vw !important;
+    height: 20vw !important;
+}
+
+.miAdv {
+    width: 1000px !important;
+
+}
+.container {
+  max-width: 860px;
+}
+
+li {
+    text-wrap: balance !important;
+}
+
+.card {
+    min-height: 300px !important;
+    
+}
+
+.buttonContainer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.buttonContainer button {
+    width: 88% !important;
+    margin-bottom: 1em !important;
+    border-radius: 4px !important;
+}
+
+.advBttns {transition: all 0.2s ease-in-out; }
+
+.advBttns .advBttn01 {
+    border-color: #0086ff !important; transition: all 0.2s ease-in-out; 
+}
+.advBttns .advBttn02 {
+    border-color: #808080 !important; transition: all 0.2s ease-in-out;
+}
+.advBttns .advBttn01 .card-header {
+    border-color: #0086ff !important; transition: all 0.2s ease-in-out;
+}
+.advBttns .advBttn01 button {
+    border-color: #0086ff !important; color: #808080 !important; opacity: 100%;  transition: all 0.2s ease-in-out;
+}
+.advBttns .advBttn01 .bttnA {
+    border-color: #808080 !important; color: #808080 !important; opacity: 100%;  transition: all 0.2s ease-in-out;
+}
+
+.advBttns:hover .advBttn01 button {
+    border-color: #808080 !important; color: #808080 !important; opacity: 100%;  transition: all 0.2s ease-in-out;
+}
+
+.advBttns:hover .advBttn01 {
+    border-color: #808080 !important; opacity: 50%; transition: all 0.2s ease-in-out; filter: blur(5px);
+}
+.advBttns:hover .advBttn02 {
+    border-color: #808080 !important; opacity: 50%; transition: all 0.2s ease-in-out; filter: blur(5px);
+}
+.advBttns:hover .advBttn01 .card-header {
+    border-color: #808080 !important; transition: all 0.2s ease-in-out;
+}
+.advBttns .advBttn01:hover {
+    border-color: #0086ff !important; opacity: 100%;  transition: all 0.2s ease-in-out; transform: scale(1.2); z-index: 5 !important; filter: blur(0px);
+}
+.advBttns .advBttn01:hover .card-header {
+    border-color: #0086ff !important; background-color: #0067c4; opacity: 100%; color: #ffffff !important;  transition: all 0.2s ease-in-out;
+}
+
+
+.advBttns:hover .advBttn02 {
+    border-color: #808080 !important; opacity: 50%; transition: all 0.2s ease-in-out;
+}
+
+
+.advBttns .advBttn02:hover {
+    border-color: light-dark(#e64949, #de3333) !important; opacity: 100%;  transition: all 0.2s ease-in-out;  transform: scale(1.2); z-index: 5 !important; filter: blur(0px);
+}
+.advBttns .advBttn02:hover .card-header {
+    border-color: light-dark(#e64949, #de3333) !important; background-color: light-dark(#e64949, #de3333) !important; opacity: 100%; color: #ffffff !important;  transition: all 0.2s ease-in-out;
+}
+.advBttns .advBttn02:hover button {
+    border-color: light-dark(#e64949, #de3333) !important; background-color: light-dark(#e64949, #de3333); color: #ffffff !important; opacity: 100%;  transition: all 0.2s ease-in-out;
+}
+.advBttns .advBttn02 button {
+    border-color: #808080 !important; color: #808080 !important; opacity: 100%;  transition: all 0.2s ease-in-out;
+}
+
+
+
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  padding: 0 !important;
+  border: 0 !important;
+  text-align: left;
+  outline: none;
+  font-size: 1em;
+  font-weight: 900;
+  transition: 0.4s;
+  background-color: transparent !important;
+  color: light-dark(#666666, #c7c7c7);
+}
+
+.active, .accordion:hover {
+color: light-dark(black, white);
+}
+
+.active .carret {
+transform: rotate(180deg);
+}
+
+.panel {
+  padding: 20px 0px 0px 0px !important;
+  display: none;
+  background-color: transparent !important;
+  overflow: hidden;
+  font-size: 1em !important;
+  font-weight: 200 !important;
+}
+
+.faccordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .faccordion:hover {
+  background-color: #ccc; 
+}
+
+.fpanel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.footerList:hover {
+    color: light-dark(#666666, #c7c7c7) !important;
+}
+
+.finePrint {
+    font-weight: 200 !important;
+}
+
+
+
+.subDrop a {
+    margin: 0px !important;
+    padding-top: 0px !important;
+    color: #0086ff;
+    text-decoration: none;
+    padding-right: 10px !important;
+    margin-left: 10px !important;
+}       
+
+.dropdown-header {
+    font-size: 1em !important;
+    color: light-dark(black, white);
+}
+
+.contactBttns .hoverState {
+  display: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.contactBttns:hover .initialState {
+  display: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.contactBttns:hover .hoverState {
+    display: inline-block;
+    font-weight: 400 !important;
+    color: light-dark(black, white);
+    background-color: #0086ff;
+    transition: all 0.1s ease-in-out;
+}
+
+.contactBttns .initialState {
+    font-weight: 200 !important;
+    transition: all 0.1s ease-in-out;
+}
+.contactBttnGrp:hover .initialState {
+    color: #808080;
+    transition: all 0.1s ease-in-out;
+}
+
+.dropdown-item:hover {
+    background-color: #0086ff;
+    font-weight: 400 !important;
+    color: light-dark(black, white) !important;
+    transition: all 0.1s ease-in-out;
+}
+.dropdown-menu:hover .dropdown-item {
+    color: #808080; transition: all 0.1s ease-in-out;
+}
