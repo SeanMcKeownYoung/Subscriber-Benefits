@@ -1,7 +1,73 @@
 body {
-  padding-bottom: 20px;
+  padding-bottom: 450px !important;
+  position: relative !important;
+}
+@media screen and (max-width: 600px) {
+  body {
+    padding-bottom: 850px !important;
+    position: relative !important;
+  }
+}
+.navbar {
+  margin-bottom: 20px !important;
+}
+.smallPoints {
+    font-size: 11px !important;
+    line-height: 1.75 !important;
+}
+li {
+    padding-bottom: 3px !important;
+}
+.liTop {
+    margin-top: 10px !important;
+}
+.hide {
+    width: 0px !important; display: none !important; 
+  }
+.balanceAdv {
+  text-rendering: optimizeLegibility !important; 
+  text-wrap: balance !important;}
+
+.AdvRed {
+  fill: light-dark(#e64949, #de3333) !important;
+}
+.AdvRed:hover {
+  fill: light-dark(#ff0000, #ff0000) !important;
+}
+.AdvFill {
+  fill: light-dark(black, white);
 }
 
-.navbar {
-  margin-bottom: 20px;
+      @media screen and (max-width: 600px) {
+        .m-collapser {
+          display: none !important;
+          width: 0 !important;
+          height: 0 !important;
+          fill: none !important;
+        }
+  }
+
+.footer {
+  margin-top: 100px !important;
+}
+.footerAdv {
+  bottom: 0px !important;
+  position: absolute !important;
+  width: 100vw !important;
+}
+@media screen and (max-width: 600px) {
+.footerAdv{
+    padding: 5vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+.advBttns, .advBenefits {
+    padding: 0vw 7vw !important;
+  }
+}
+@media screen and (max-width: 600px) {
+.advJumbo {
+    padding: 0vw 10vw !important;
+  }
 }
