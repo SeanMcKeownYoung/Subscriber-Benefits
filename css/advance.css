@@ -502,3 +502,15 @@ overflow-y: scroll !important ;
 }
 
 }
+
+#draggable-modal {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    cursor: grab;
+}
