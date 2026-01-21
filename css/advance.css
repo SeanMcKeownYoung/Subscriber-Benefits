@@ -303,6 +303,7 @@ background-position:right 20px top 110px;
 background-size: calc(44%);
 background-blend-mode: multiply;
 box-shadow: 2px 1px 59px 0px rgba(0,0,0,0.31);
+overflow-y: scroll !important ;
 }
 
 .offcanvas-header .tradLogo svg {
