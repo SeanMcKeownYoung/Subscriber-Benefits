@@ -264,10 +264,10 @@ h1 {
   color: #ffffff !important;
   opacity: 0.8 !important;
 }
-.offcanvas-body .dropdown-menu:hover .dropdown-item {
+.offcanvas-body .dropdown-menu:focus .dropdown-item {
   opacity: 0.4 !important;
 }
-.offcanvas-body .dropdown-menu .dropdown-item:hover {
+.offcanvas-body .dropdown-menu .dropdown-item:focus {
   opacity: 1.0 !important;
 }
 .offcanvas-body li {
@@ -343,7 +343,7 @@ overflow-y: scroll !important ;
     font-size: 1.1em !important;
     color: #ffffff !important;
 }
-.contactBttnGrp:hover .initialState {
+.contactBttnGrp:focus .initialState {
     color: #ffffff !important;
     font-weight: 400 !important;
     font-size: 1.1em !important;
@@ -358,11 +358,11 @@ overflow-y: scroll !important ;
   opacity: 0.9 !important;
 
 }
-.contactBttnGrp:hover .contactBttns {
+.contactBttnGrp:focus .contactBttns {
   opacity: 0.4 !important;
   transition: all 0.2s ease-in-out;
 }
-.contactBttnGrp .contactBttns:hover {
+.contactBttnGrp .contactBttns:focus {
   opacity: 1.0 !important;
   transition: all 0.2s ease-in-out;
 }
