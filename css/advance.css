@@ -47,10 +47,14 @@ li {
   }
 }
 @media screen and (max-width: 600px) {
-.advJumbo {
+.advJumbo .advJumboTxt {
     padding: 0vw 10vw !important;
   }
+.advJumbo  {
+    padding-top: 100px !important;
+  }
 }
+
 .balanceAdv {
   text-rendering: optimizeLegibility !important; 
   text-wrap: balance !important;}
@@ -499,6 +503,18 @@ overflow-y: scroll !important ;
 
 .navBttnGrp {
   margin-top: 6px !important;
+}
+
+.navbar {
+  position:fixed !important;
+  width: 100vw !important;
+  top: 0px !important;
+  left: 50% !important;
+  transform: translate(-50%, 0%) !important;
+  z-index: 10 !important;
+  padding: 20px  !important;
+  background-color: light-dark(#f8f9fa, #2a3036);
+  box-shadow: 2px 1px 59px 7px rgba(0,0,0,0.31);
 }
 
 }
