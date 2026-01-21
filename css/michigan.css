@@ -1,18 +1,4 @@
-.smallPoints {
-    font-size: 19px !important;
-}
 
-.nav-link {
-    font-size: clamp(1rem, -1rem + 2.2vw, 1.2rem);
-}
-
-h1 {
-    font-size: clamp(2rem, 2rem + 2vw, 4rem);
-}
-
-.introTxt {
-    font-size: clamp(1rem, 1rem + 0.5vw, 1.5rem);
-}
 
 .siteLogo {
     width: calc(100px + 4vw) !important;
@@ -58,65 +44,6 @@ li {
     margin-bottom: 1em !important;
     border-radius: 4px !important;
 }
-
-.advBttns {transition: all 0.2s ease-in-out; }
-
-.advBttns .advBttn01 {
-    border-color: #0086ff !important; transition: all 0.2s ease-in-out; 
-}
-.advBttns .advBttn02 {
-    border-color: #808080 !important; transition: all 0.2s ease-in-out;
-}
-.advBttns .advBttn01 .card-header {
-    border-color: #0086ff !important; transition: all 0.2s ease-in-out;
-}
-.advBttns .advBttn01 button {
-    border-color: #0086ff !important; color: #808080 !important; opacity: 100%;  transition: all 0.2s ease-in-out;
-}
-.advBttns .advBttn01 .bttnA {
-    border-color: #808080 !important; color: #808080 !important; opacity: 100%;  transition: all 0.2s ease-in-out;
-}
-
-.advBttns:hover .advBttn01 button {
-    border-color: #808080 !important; color: #808080 !important; opacity: 100%;  transition: all 0.2s ease-in-out;
-}
-
-.advBttns:hover .advBttn01 {
-    border-color: #808080 !important; opacity: 50%; transition: all 0.2s ease-in-out; filter: blur(5px);
-}
-.advBttns:hover .advBttn02 {
-    border-color: #808080 !important; opacity: 50%; transition: all 0.2s ease-in-out; filter: blur(5px);
-}
-.advBttns:hover .advBttn01 .card-header {
-    border-color: #808080 !important; transition: all 0.2s ease-in-out;
-}
-.advBttns .advBttn01:hover {
-    border-color: #0086ff !important; opacity: 100%;  transition: all 0.2s ease-in-out; transform: scale(1.2); z-index: 5 !important; filter: blur(0px);
-}
-.advBttns .advBttn01:hover .card-header {
-    border-color: #0086ff !important; background-color: #0067c4; opacity: 100%; color: #ffffff !important;  transition: all 0.2s ease-in-out;
-}
-
-
-.advBttns:hover .advBttn02 {
-    border-color: #808080 !important; opacity: 50%; transition: all 0.2s ease-in-out;
-}
-
-
-.advBttns .advBttn02:hover {
-    border-color: light-dark(#e64949, #de3333) !important; opacity: 100%;  transition: all 0.2s ease-in-out;  transform: scale(1.2); z-index: 5 !important; filter: blur(0px);
-}
-.advBttns .advBttn02:hover .card-header {
-    border-color: light-dark(#e64949, #de3333) !important; background-color: light-dark(#e64949, #de3333) !important; opacity: 100%; color: #ffffff !important;  transition: all 0.2s ease-in-out;
-}
-.advBttns .advBttn02:hover button {
-    border-color: light-dark(#e64949, #de3333) !important; background-color: light-dark(#e64949, #de3333); color: #ffffff !important; opacity: 100%;  transition: all 0.2s ease-in-out;
-}
-.advBttns .advBttn02 button {
-    border-color: #808080 !important; color: #808080 !important; opacity: 100%;  transition: all 0.2s ease-in-out;
-}
-
-
 
 .accordion {
   cursor: pointer;
@@ -181,8 +108,6 @@ transform: rotate(180deg);
     font-weight: 200 !important;
 }
 
-
-
 .subDrop a {
     margin: 0px !important;
     padding-top: 0px !important;
@@ -197,39 +122,9 @@ transform: rotate(180deg);
     color: light-dark(black, white);
 }
 
-.contactBttns .hoverState {
-  display: none;
-  transition: all 0.1s ease-in-out;
-}
 
-.contactBttns:hover .initialState {
-  display: none;
-  transition: all 0.1s ease-in-out;
-}
 
-.contactBttns:hover .hoverState {
-    display: inline-block;
-    font-weight: 400 !important;
-    color: light-dark(black, white);
-    background-color: #0086ff;
-    transition: all 0.1s ease-in-out;
-}
 
-.contactBttns .initialState {
-    font-weight: 200 !important;
-    transition: all 0.1s ease-in-out;
-}
-.contactBttnGrp:hover .initialState {
-    color: #808080;
-    transition: all 0.1s ease-in-out;
-}
+.logoTest{
+    background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}
 
-.dropdown-item:hover {
-    background-color: #0086ff;
-    font-weight: 400 !important;
-    color: light-dark(black, white) !important;
-    transition: all 0.1s ease-in-out;
-}
-.dropdown-menu:hover .dropdown-item {
-    color: #808080; transition: all 0.1s ease-in-out;
-}
